@@ -14,5 +14,9 @@ Comparison of muscle *Pink1* mRNA relative expression levels between Control and
 * **Simulated vs. Raw Data:** The authors did not release a raw individual replicate CSV matrix; dataset values were simulated to match reported summary statistics and sample sizes.
 * **Correlation vs. Causation:** The correlation analysis treats weight gain and *Pink1* repression as co-occurring variables, which shows an association but does not prove direct biological causality.
 * **Statistical Sensitivity:** Non-parametric testing (Mann-Whitney U) on small subsets showed reduced power ($p = 0.3333$) compared to standard parametric $t$-tests ($p = 0.0048$), highlighting sensitivity to sample size assumptions.
+## 5. How to Run
+1. Open the repository notebook in Google Colab
+2. Run Cell 1 to mount Google Drive and load dependencies (pandas, numpy, matplotlib, seaborn, scipy).
+3. Execute subsequent cells sequentially to run data processing, hypothesis testing, and save figure outputs directly to your Drive directory.   
 ## 6. Citation & Data Source
 Ahuja, P., Ng, C. F., Pang, B. P. S., Chan, W. S., Tse, M. C. L., Bi, X., ... & Chan, C. B. (2021). *Muscle-generated BDNF (brain derived neurotrophic factor) maintains mitochondrial quality control in female mice*. Autophagy, 18(6), 1367-1384. DOI: [10.1080/15548627.2021.1985257](https://doi.org/10.1080/15548627.2021.1985257)
